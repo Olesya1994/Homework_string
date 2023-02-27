@@ -1,10 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        task1();
-        task2();
-        //task3();
+        task1_2();
+        task3();
     }
-    public static void task1() {
+
+    public static void task1_2() {
+        System.out.println("Задача 1-2");
         String firstName = "Ivan";
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
@@ -13,12 +14,11 @@ public class Main {
         fullName = fullName.toUpperCase();
         System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName);
     }
-    public static void task2() {
+
+    public static void task3() {
+        System.out.println("Задача 3");
         String fullName = "Иванов Семён Семёнович";
-        fullName = fullName.replace("ё","е");
+        fullName = fullName.replace("ё", "е");
         System.out.println("" + fullName);
     }
-
-
-
 }
